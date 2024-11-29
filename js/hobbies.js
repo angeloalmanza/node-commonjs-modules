@@ -4,6 +4,4 @@ const hobby = (hobbyOne, hobbyTwo, hobbyThree) => {
     }
 }
 
-module.exports = {
-    hobby
-}
+module.exports = hobby;
