@@ -4,4 +4,10 @@ const hobby = (hobbyOne, hobbyTwo, hobbyThree) => {
     }
 }
 
-module.exports = hobby;
+// COMMON JS
+// module.exports = hobby;
+
+// ES6
+const hobbyFunction = hobby;
+
+export default hobbyFunction

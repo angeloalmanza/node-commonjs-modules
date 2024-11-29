@@ -2,6 +2,7 @@
   "name": "commonjs-modules",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node ./js/app.js",
     "dev": "node --watch ./js/app.js"
@@ -9,5 +10,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
 }

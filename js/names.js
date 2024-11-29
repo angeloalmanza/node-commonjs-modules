@@ -5,4 +5,10 @@ const names = (firstName, lastName) => {
     }
 }
 
-module.exports = names;
+// COMMON JS
+// module.exports = names;
+
+// ES6
+const nameFunction = names;
+
+export default nameFunction
